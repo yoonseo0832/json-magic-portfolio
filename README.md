@@ -69,13 +69,20 @@ This project is built with:
 1. **GitHub Pages 설정**:
    - Repository Settings > Pages로 이동
    - Source를 "GitHub Actions"로 설정
+   - Environment에서 "github-pages" 환경이 자동으로 생성됩니다
 
 2. **자동 배포**:
    - `main` 브랜치에 코드를 push하면 자동으로 배포됩니다
    - 배포 상태는 Actions 탭에서 확인할 수 있습니다
+   - 수동 배포는 Actions 탭에서 "Deploy Portfolio to Pages" 워크플로우를 실행할 수 있습니다
 
 3. **배포 URL**:
    - 배포 완료 후 `https://[username].github.io/json-magic-portfolio/`에서 확인 가능
+   - 첫 배포는 보통 5-10분 정도 소요됩니다
+
+4. **배포 문제 해결**:
+   - 배포 실패 시 Actions 탭에서 로그를 확인하세요
+   - 문제가 지속되면 Issues 탭에서 배포 문제를 신고해주세요
 
 ### 수동 배포
 
