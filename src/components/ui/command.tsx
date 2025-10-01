@@ -21,7 +21,9 @@ const Command = React.forwardRef<
 ));
 Command.displayName = CommandPrimitive.displayName;
 
-interface CommandDialogProps extends DialogProps {}
+interface CommandDialogProps extends DialogProps {
+  // CommandDialog 컴포넌트의 추가 props가 필요한 경우 여기에 정의
+}
 
 const CommandDialog = ({ children, ...props }: CommandDialogProps) => {
   return (

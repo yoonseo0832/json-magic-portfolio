@@ -7,14 +7,24 @@ import { Textarea } from "@/components/ui/textarea";
 import { Card } from "@/components/ui/card";
 import { toast } from "sonner";
 import { ArrowLeft, Download, Plus, Trash2, Save } from "lucide-react";
+import type { 
+  AboutData, 
+  ExperienceData, 
+  SkillsData, 
+  ProjectsData, 
+  AwardsData,
+  WorkExperience,
+  Project,
+  Award
+} from "@/types/portfolio";
 
 const Admin = () => {
   const navigate = useNavigate();
-  const [aboutData, setAboutData] = useState<any>(null);
-  const [experienceData, setExperienceData] = useState<any>(null);
-  const [skillsData, setSkillsData] = useState<any>(null);
-  const [projectsData, setProjectsData] = useState<any>(null);
-  const [awardsData, setAwardsData] = useState<any>(null);
+  const [aboutData, setAboutData] = useState<AboutData | null>(null);
+  const [experienceData, setExperienceData] = useState<ExperienceData | null>(null);
+  const [skillsData, setSkillsData] = useState<SkillsData | null>(null);
+  const [projectsData, setProjectsData] = useState<ProjectsData | null>(null);
+  const [awardsData, setAwardsData] = useState<AwardsData | null>(null);
 
   useEffect(() => {
     if (!import.meta.env.DEV) {
@@ -66,7 +76,7 @@ const Admin = () => {
     toast.success("Data downloaded successfully!");
   };
 
-  const saveData = (type: string, data: any) => {
+  const saveData = (type: string, data: AboutData | ExperienceData | SkillsData | ProjectsData | AwardsData) => {
     // In a real implementation, this would save to the JSON files
     // For now, we'll just show a message
     toast.info(
@@ -168,7 +178,7 @@ const Admin = () => {
             <TabsContent value="experience" className="space-y-4">
               <div className="mb-4">
                 <h3 className="text-lg font-bold mb-2">Work Experience</h3>
-                {experienceData.work.map((job: any, index: number) => (
+                {experienceData.work.map((job: WorkExperience, index: number) => (
                   <Card key={job.id} className="p-4 mb-4">
                     <div className="grid gap-3">
                       <Input
@@ -203,7 +213,7 @@ const Admin = () => {
                         size="sm"
                         onClick={() => {
                           const newWork = experienceData.work.filter(
-                            (_: any, i: number) => i !== index
+                            (_, i: number) => i !== index
                           );
                           setExperienceData({ ...experienceData, work: newWork });
                         }}
@@ -233,7 +243,7 @@ const Admin = () => {
 
             <TabsContent value="projects" className="space-y-4">
               <div className="mb-4">
-                {projectsData.projects.map((project: any, index: number) => (
+                {projectsData.projects.map((project: Project, index: number) => (
                   <Card key={project.id} className="p-4 mb-4">
                     <div className="grid gap-3">
                       <Input
@@ -265,7 +275,7 @@ const Admin = () => {
                         size="sm"
                         onClick={() => {
                           const newProjects = projectsData.projects.filter(
-                            (_: any, i: number) => i !== index
+                            (_, i: number) => i !== index
                           );
                           setProjectsData({
                             ...projectsData,
@@ -288,7 +298,7 @@ const Admin = () => {
 
             <TabsContent value="awards" className="space-y-4">
               <div className="mb-4">
-                {awardsData.awards.map((award: any, index: number) => (
+                {awardsData.awards.map((award: Award, index: number) => (
                   <Card key={award.id} className="p-4 mb-4">
                     <div className="grid gap-3">
                       <Input
@@ -323,7 +333,7 @@ const Admin = () => {
                         size="sm"
                         onClick={() => {
                           const newAwards = awardsData.awards.filter(
-                            (_: any, i: number) => i !== index
+                            (_, i: number) => i !== index
                           );
                           setAwardsData({ ...awardsData, awards: newAwards });
                         }}
