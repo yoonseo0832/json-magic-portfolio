@@ -1,0 +1,34 @@
+{
+  "name": "John Doe",
+  "age": 28,
+  "headline": "Creative Frontend Developer & UI/UX Enthusiast",
+  "bio": "I'm a passionate frontend developer with a keen eye for design and user experience. With over 5 years of experience in building modern web applications, I specialize in creating intuitive, performant, and visually stunning interfaces. I love turning complex problems into simple, beautiful solutions that users enjoy interacting with.",
+  "metrics": [
+    {
+      "label": "Years of Experience",
+      "value": "5+"
+    },
+    {
+      "label": "Projects Completed",
+      "value": "50+"
+    },
+    {
+      "label": "Happy Clients",
+      "value": "30+"
+    },
+    {
+      "label": "Code Commits",
+      "value": "2000+"
+    }
+  ],
+  "contact": {
+    "email": "john.doe@example.com",
+    "phone": "+1 (555) 123-4567",
+    "location": "San Francisco, CA"
+  },
+  "social": {
+    "github": "https://github.com/johndoe",
+    "linkedin": "https://linkedin.com/in/johndoe",
+    "twitter": "https://twitter.com/johndoe"
+  }
+}

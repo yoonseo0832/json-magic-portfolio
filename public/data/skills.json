@@ -1,0 +1,75 @@
+{
+  "categories": [
+    {
+      "name": "Frontend",
+      "skills": [
+        {
+          "name": "React",
+          "level": 95
+        },
+        {
+          "name": "TypeScript",
+          "level": 90
+        },
+        {
+          "name": "Next.js",
+          "level": 85
+        },
+        {
+          "name": "Tailwind CSS",
+          "level": 92
+        },
+        {
+          "name": "HTML/CSS",
+          "level": 98
+        }
+      ]
+    },
+    {
+      "name": "Backend & Tools",
+      "skills": [
+        {
+          "name": "Node.js",
+          "level": 75
+        },
+        {
+          "name": "Git",
+          "level": 90
+        },
+        {
+          "name": "Webpack",
+          "level": 70
+        },
+        {
+          "name": "REST APIs",
+          "level": 85
+        },
+        {
+          "name": "GraphQL",
+          "level": 65
+        }
+      ]
+    },
+    {
+      "name": "Design & Other",
+      "skills": [
+        {
+          "name": "Figma",
+          "level": 88
+        },
+        {
+          "name": "UI/UX Design",
+          "level": 82
+        },
+        {
+          "name": "Responsive Design",
+          "level": 95
+        },
+        {
+          "name": "Performance Optimization",
+          "level": 85
+        }
+      ]
+    }
+  ]
+}

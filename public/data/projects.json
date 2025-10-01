@@ -1,0 +1,99 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "title": "E-Commerce Platform",
+      "image": "/placeholder.svg",
+      "shortDescription": "Modern e-commerce solution with advanced filtering and cart management",
+      "technologies": ["React", "TypeScript", "Redux", "Stripe", "Node.js"],
+      "description": "A full-featured e-commerce platform with real-time inventory management, advanced product filtering, and secure payment processing. Built with modern React patterns and optimized for performance.",
+      "contributions": [
+        "Architected the frontend application structure",
+        "Implemented shopping cart with persistent storage",
+        "Integrated Stripe payment gateway",
+        "Created responsive product catalog with filtering"
+      ],
+      "results": [
+        "Achieved 99.9% uptime in production",
+        "Processed over $500K in transactions",
+        "Average page load time: 1.2s",
+        "Mobile conversion rate: 3.8%"
+      ],
+      "links": {
+        "demo": "https://example.com",
+        "github": "https://github.com/johndoe/ecommerce"
+      }
+    },
+    {
+      "id": "2",
+      "title": "Project Management Dashboard",
+      "image": "/placeholder.svg",
+      "shortDescription": "Real-time collaborative dashboard for agile teams",
+      "technologies": ["React", "TypeScript", "Firebase", "Material-UI"],
+      "description": "A comprehensive project management tool with real-time collaboration features, sprint planning, and performance analytics. Designed for agile teams to streamline their workflow.",
+      "contributions": [
+        "Developed real-time collaboration features using WebSockets",
+        "Created drag-and-drop kanban board",
+        "Built analytics dashboard with interactive charts",
+        "Implemented role-based access control"
+      ],
+      "results": [
+        "Used by 15+ teams across the organization",
+        "Reduced project planning time by 30%",
+        "99.5% user satisfaction rating",
+        "Average task completion rate improved by 25%"
+      ],
+      "links": {
+        "demo": "https://example.com",
+        "github": "https://github.com/johndoe/pm-dashboard"
+      }
+    },
+    {
+      "id": "3",
+      "title": "Social Media Analytics Tool",
+      "image": "/placeholder.svg",
+      "shortDescription": "Analytics platform for social media performance tracking",
+      "technologies": ["Next.js", "TypeScript", "Chart.js", "PostgreSQL"],
+      "description": "An analytics dashboard that aggregates data from multiple social media platforms, providing insights into engagement, reach, and audience demographics.",
+      "contributions": [
+        "Designed and implemented data visualization components",
+        "Created API integrations with major social platforms",
+        "Built automated reporting system",
+        "Optimized database queries for large datasets"
+      ],
+      "results": [
+        "Processing 10M+ data points daily",
+        "Dashboard load time: 800ms",
+        "Serving 1000+ active users",
+        "95% accuracy in sentiment analysis"
+      ],
+      "links": {
+        "demo": "https://example.com"
+      }
+    },
+    {
+      "id": "4",
+      "title": "Fitness Tracking App",
+      "image": "/placeholder.svg",
+      "shortDescription": "Progressive web app for workout tracking and nutrition planning",
+      "technologies": ["React", "TypeScript", "PWA", "IndexedDB"],
+      "description": "A progressive web application that helps users track workouts, plan meals, and monitor their fitness progress. Works offline and provides personalized recommendations.",
+      "contributions": [
+        "Implemented offline-first architecture",
+        "Created custom workout builder interface",
+        "Developed nutrition calculator with meal planning",
+        "Built progress tracking with data visualization"
+      ],
+      "results": [
+        "10K+ downloads in first month",
+        "4.8/5 app store rating",
+        "Works 100% offline",
+        "Average session time: 12 minutes"
+      ],
+      "links": {
+        "demo": "https://example.com",
+        "github": "https://github.com/johndoe/fitness-app"
+      }
+    }
+  ]
+}
