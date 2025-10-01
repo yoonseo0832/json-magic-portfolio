@@ -48,7 +48,21 @@ export const Experience = () => {
     return () => observer.disconnect();
   }, []);
 
-  if (!data) return null;
+  if (!data) {
+    return (
+      <section id="experience" className="py-20">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto animate-pulse">
+            <div className="h-8 bg-muted rounded w-1/4 mb-8"></div>
+            <div className="space-y-4">
+              <div className="h-32 bg-muted rounded"></div>
+              <div className="h-32 bg-muted rounded"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    );
+  }
 
   return (
     <section id="experience" className="py-20">

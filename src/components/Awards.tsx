@@ -65,7 +65,20 @@ export const Awards = () => {
     return () => observer.disconnect();
   }, []);
 
-  if (!data) return null;
+  if (!data) {
+    return (
+      <section id="awards" className="py-20 bg-muted/30">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-6 animate-pulse">
+            <div className="h-40 bg-muted rounded-xl"></div>
+            <div className="h-40 bg-muted rounded-xl"></div>
+            <div className="h-40 bg-muted rounded-xl"></div>
+            <div className="h-40 bg-muted rounded-xl"></div>
+          </div>
+        </div>
+      </section>
+    );
+  }
 
   return (
     <section id="awards" className="py-20 bg-muted/30">

@@ -39,7 +39,19 @@ export const About = () => {
     return () => observer.disconnect();
   }, []);
 
-  if (!data) return null;
+  if (!data) {
+    return (
+      <section id="about" className="py-20 bg-muted/30">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto bg-card rounded-2xl p-8 md:p-12 shadow-card border border-border animate-pulse">
+            <div className="h-8 bg-muted rounded w-1/3 mb-4"></div>
+            <div className="h-4 bg-muted rounded w-full mb-2"></div>
+            <div className="h-4 bg-muted rounded w-2/3"></div>
+          </div>
+        </div>
+      </section>
+    );
+  }
 
   return (
     <section id="about" className="py-20 bg-muted/30">

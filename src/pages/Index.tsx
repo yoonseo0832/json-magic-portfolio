@@ -8,20 +8,10 @@ import { Skills } from "@/components/Skills";
 import { Projects } from "@/components/Projects";
 import { Awards } from "@/components/Awards";
 import { Contact } from "@/components/Contact";
-import { LoadingScreen } from "@/components/LoadingScreen";
 
 const Index = () => {
-  const [isLoading, setIsLoading] = useState(true);
   const [logoClickCount, setLogoClickCount] = useState(0);
   const navigate = useNavigate();
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsLoading(false);
-    }, 1500);
-
-    return () => clearTimeout(timer);
-  }, []);
 
   useEffect(() => {
     if (logoClickCount === 3 && import.meta.env.DEV) {
@@ -34,10 +24,6 @@ const Index = () => {
     setLogoClickCount((prev) => prev + 1);
     setTimeout(() => setLogoClickCount(0), 2000);
   };
-
-  if (isLoading) {
-    return <LoadingScreen />;
-  }
 
   return (
     <div className="min-h-screen">

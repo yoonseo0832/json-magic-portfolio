@@ -39,7 +39,22 @@ export const Contact = () => {
     return () => observer.disconnect();
   }, []);
 
-  if (!data) return null;
+  if (!data) {
+    return (
+      <section id="contact" className="py-20">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto bg-card rounded-2xl p-8 md:p-12 shadow-card border border-border animate-pulse">
+            <div className="h-8 bg-muted rounded w-1/4 mb-8 mx-auto"></div>
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="h-32 bg-muted rounded-xl"></div>
+              <div className="h-32 bg-muted rounded-xl"></div>
+              <div className="h-32 bg-muted rounded-xl"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    );
+  }
 
   return (
     <section id="contact" className="py-20">
