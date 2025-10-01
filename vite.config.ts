@@ -5,6 +5,8 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  // GitHub Pages 배포를 위한 base 경로 설정
+  base: mode === 'production' ? '/json-magic-portfolio/' : '/',
   server: {
     host: "::",
     port: 8080,

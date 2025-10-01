@@ -62,6 +62,34 @@ This project is built with:
 
 ## How can I deploy this project?
 
+### GitHub Pages 자동 배포
+
+이 프로젝트는 GitHub Actions를 사용하여 자동 배포됩니다.
+
+1. **GitHub Pages 설정**:
+   - Repository Settings > Pages로 이동
+   - Source를 "GitHub Actions"로 설정
+
+2. **자동 배포**:
+   - `main` 브랜치에 코드를 push하면 자동으로 배포됩니다
+   - 배포 상태는 Actions 탭에서 확인할 수 있습니다
+
+3. **배포 URL**:
+   - 배포 완료 후 `https://[username].github.io/json-magic-portfolio/`에서 확인 가능
+
+### 수동 배포
+
+```bash
+# 프로덕션 빌드
+npm run build:prod
+
+# 로컬에서 미리보기
+npm run preview:prod
+```
+
+### Lovable 배포
+
+기존 Lovable 플랫폼을 통한 배포도 가능합니다:
 Simply open [Lovable](https://lovable.dev/projects/e8964c7c-4a87-40b4-af09-6999d354370a) and click on Share -> Publish.
 
 ## Can I connect a custom domain to my Lovable project?
