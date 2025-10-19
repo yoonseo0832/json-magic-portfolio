@@ -1,6 +1,6 @@
 {
-  "name": "John Doe",
-  "age": 28,
+  "name": "YoonSuh Lee",
+  "age": 23,
   "headline": "Creative Frontend Developer & UI/UX Enthusiast",
   "bio": "I'm a passionate frontend developer with a keen eye for design and user experience. With over 5 years of experience in building modern web applications, I specialize in creating intuitive, performant, and visually stunning interfaces. I love turning complex problems into simple, beautiful solutions that users enjoy interacting with.",
   "metrics": [
@@ -22,12 +22,12 @@
     }
   ],
   "contact": {
-    "email": "john.doe@example.com",
-    "phone": "+1 (555) 123-4567",
-    "location": "San Francisco, CA"
+    "email": "yoonseo0832@gmail.com",
+    "phone": "+82 010-7134-7094",
+    "location": "Seoul, South Korea"
   },
   "social": {
-    "github": "https://github.com/johndoe",
+    "github": "https://github.com/yoonseo0832",
     "linkedin": "https://linkedin.com/in/johndoe",
     "twitter": "https://twitter.com/johndoe"
   }
