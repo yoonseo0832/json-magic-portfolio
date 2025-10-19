@@ -2,24 +2,24 @@
   "education": [
     {
       "id": "1",
-      "institution": "Sejong Campus of Korea University",
-      "degree": "Bachelor of Computer Engineering",
-      "major": "Computer Software",
-      "period": "2022 - Present",
-      "details": "GPA: 3.25/4.5"
+      "institution": "고려대학교 세종캠퍼스",
+      "degree": "컴퓨터공학 학사",
+      "major": "컴퓨터 소프트웨어",
+      "period": "2022 - 재학중",
+      "details": "학점: 3.25/4.5"
     }
   ],
   "work": [
     {
       "id": "1",
       "company": "Innok Corporation",
-      "position": "Representative",
-      "period": "2024 - Present",
+      "position": "대표",
+      "period": "2024 - 현재",
       "responsibilities": [
-        "Contract, Quotation Responsible",
-        "Company introduction and development of company site renewal",
-        "Business Planning and Promotion",
-        "Responsible for cooperation with other companies and customer response"
+        "계약서, 견적서 담당",
+        "회사 소개 및 회사 사이트 리뉴얼 개발",
+        "사업 기획 및 홍보",
+        "타사 협력 및 고객 응대 담당"
       ]
     }
   ]

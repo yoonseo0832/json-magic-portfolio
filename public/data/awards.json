@@ -6,7 +6,7 @@
       "type": "certification",
       "issuer": "Amazon Web Services",
       "date": "2023",
-      "description": "Professional-level certification demonstrating expertise in designing distributed systems on AWS"
+      "description": "AWS에서 분산 시스템 설계 전문 지식을 입증하는 전문가 수준 자격증"
     },
     {
       "id": "2",
@@ -14,7 +14,7 @@
       "type": "award",
       "issuer": "WebDesign Conference 2022",
       "date": "2022",
-      "description": "Recognized for outstanding user interface design in the enterprise application category"
+      "description": "엔터프라이즈 애플리케이션 카테고리에서 뛰어난 사용자 인터페이스 디자인으로 인정받음"
     },
     {
       "id": "3",
@@ -22,7 +22,7 @@
       "type": "course",
       "issuer": "Frontend Masters",
       "date": "2023",
-      "description": "Comprehensive course covering advanced React patterns, performance optimization, and best practices"
+      "description": "고급 React 패턴, 성능 최적화 및 모범 사례를 다루는 종합 과정"
     },
     {
       "id": "4",
@@ -30,7 +30,7 @@
       "type": "award",
       "issuer": "Tech Innovations Inc.",
       "date": "2022",
-      "description": "Awarded for exceptional performance and contribution to company's flagship product development"
+      "description": "회사의 주력 제품 개발에 대한 탁월한 성과와 기여로 수상"
     },
     {
       "id": "5",
@@ -38,7 +38,7 @@
       "type": "course",
       "issuer": "Udemy",
       "date": "2021",
-      "description": "In-depth TypeScript course covering advanced types, generics, and real-world applications"
+      "description": "고급 타입, 제네릭 및 실제 애플리케이션을 다루는 심화 TypeScript 과정"
     },
     {
       "id": "6",
@@ -46,7 +46,7 @@
       "type": "certification",
       "issuer": "Google",
       "date": "2021",
-      "description": "Certification in Google Analytics, demonstrating proficiency in web analytics and data-driven decision making"
+      "description": "웹 분석 및 데이터 기반 의사 결정 능력을 입증하는 Google Analytics 자격증"
     }
   ]
 }
