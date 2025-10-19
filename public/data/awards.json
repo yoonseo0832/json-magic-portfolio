@@ -1,0 +1,52 @@
+{
+  "awards": [
+    {
+      "id": "1",
+      "title": "AWS Certified Solutions Architect",
+      "type": "certification",
+      "issuer": "Amazon Web Services",
+      "date": "2023",
+      "description": "Professional-level certification demonstrating expertise in designing distributed systems on AWS"
+    },
+    {
+      "id": "2",
+      "title": "Best UI/UX Design Award",
+      "type": "award",
+      "issuer": "WebDesign Conference 2022",
+      "date": "2022",
+      "description": "Recognized for outstanding user interface design in the enterprise application category"
+    },
+    {
+      "id": "3",
+      "title": "Advanced React Patterns",
+      "type": "course",
+      "issuer": "Frontend Masters",
+      "date": "2023",
+      "description": "Comprehensive course covering advanced React patterns, performance optimization, and best practices"
+    },
+    {
+      "id": "4",
+      "title": "Employee of the Year",
+      "type": "award",
+      "issuer": "Tech Innovations Inc.",
+      "date": "2022",
+      "description": "Awarded for exceptional performance and contribution to company's flagship product development"
+    },
+    {
+      "id": "5",
+      "title": "TypeScript Deep Dive",
+      "type": "course",
+      "issuer": "Udemy",
+      "date": "2021",
+      "description": "In-depth TypeScript course covering advanced types, generics, and real-world applications"
+    },
+    {
+      "id": "6",
+      "title": "Google Analytics Certified",
+      "type": "certification",
+      "issuer": "Google",
+      "date": "2021",
+      "description": "Certification in Google Analytics, demonstrating proficiency in web analytics and data-driven decision making"
+    }
+  ]
+}
