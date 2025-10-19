@@ -63,7 +63,7 @@ export const Skills = () => {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
           }`}
         >
-          {language === "en" ? "Skills" : "스킬"}
+          {language === "ko" ? "스킬" : "Skills"}
         </h2>
         <div
           className={`w-20 h-1 bg-gradient-to-r from-primary to-accent mx-auto mb-12 transition-all duration-700 delay-100 ${

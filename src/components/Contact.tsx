@@ -66,7 +66,7 @@ export const Contact = () => {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
           }`}
         >
-          {language === "en" ? "Get In Touch" : "연락하기"}
+          {language === "ko" ? "연락하기" : "Get In Touch"}
         </h2>
         <div
           className={`w-20 h-1 bg-gradient-to-r from-primary to-accent mx-auto mb-8 transition-all duration-700 delay-100 ${
@@ -79,9 +79,9 @@ export const Contact = () => {
             isVisible ? "opacity-100" : "opacity-0"
           }`}
         >
-          {language === "en"
-            ? "I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions. Feel free to reach out!"
-            : "새로운 프로젝트, 창의적인 아이디어 또는 함께 할 기회에 대해 언제나 논의할 준비가 되어 있습니다. 편하게 연락주세요!"}
+          {language === "ko"
+            ? "새로운 프로젝트, 창의적인 아이디어 또는 함께 할 기회에 대해 언제나 논의할 준비가 되어 있습니다. 편하게 연락주세요!"
+            : "I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions. Feel free to reach out!"}
         </p>
 
         <div className="max-w-3xl mx-auto">
@@ -100,7 +100,7 @@ export const Contact = () => {
                   <Mail className="w-6 h-6 text-primary" />
                 </div>
                 <h3 className="font-bold mb-2">
-                  {language === "en" ? "Email" : "이메일"}
+                  {language === "ko" ? "이메일" : "Email"}
                 </h3>
                 <p className="text-sm text-muted-foreground break-all">
                   {data.contact.email}
@@ -115,7 +115,7 @@ export const Contact = () => {
                   <Phone className="w-6 h-6 text-primary" />
                 </div>
                 <h3 className="font-bold mb-2">
-                  {language === "en" ? "Phone" : "전화"}
+                  {language === "ko" ? "전화" : "Phone"}
                 </h3>
                 <p className="text-sm text-muted-foreground">
                   {data.contact.phone}
@@ -127,7 +127,7 @@ export const Contact = () => {
                   <MapPin className="w-6 h-6 text-primary" />
                 </div>
                 <h3 className="font-bold mb-2">
-                  {language === "en" ? "Location" : "위치"}
+                  {language === "ko" ? "위치" : "Location"}
                 </h3>
                 <p className="text-sm text-muted-foreground">
                   {data.contact.location}
@@ -138,7 +138,7 @@ export const Contact = () => {
             {/* Social Links */}
             <div className="border-t border-border pt-8">
               <h3 className="text-xl font-bold text-center mb-6">
-                {language === "en" ? "Connect With Me" : "소셜 미디어"}
+                {language === "ko" ? "소셜 미디어" : "Connect With Me"}
               </h3>
               <div className="flex justify-center gap-4">
                 <a

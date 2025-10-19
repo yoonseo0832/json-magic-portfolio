@@ -47,7 +47,7 @@ export const About = ({ data }: AboutProps) => {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
           }`}
         >
-          {language === "en" ? "About Me" : "소개"}
+          {language === "ko" ? "소개" : "About Me"}
         </h2>
         <div
           className={`w-20 h-1 bg-gradient-to-r from-primary to-accent mx-auto mb-12 transition-all duration-700 delay-100 ${

@@ -71,7 +71,7 @@ export const Projects = () => {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
           }`}
         >
-          {language === "en" ? "Projects" : "프로젝트"}
+          {language === "ko" ? "프로젝트" : "Projects"}
         </h2>
         <div
           className={`w-20 h-1 bg-gradient-to-r from-primary to-accent mx-auto mb-12 transition-all duration-700 delay-100 ${
@@ -97,7 +97,7 @@ export const Projects = () => {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-background/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
                   <p className="text-sm text-foreground">
-                    {language === "en" ? "Click to view details" : "자세히 보기"}
+                    {language === "ko" ? "자세히 보기" : "Click to view details"}
                   </p>
                 </div>
               </div>
@@ -156,7 +156,7 @@ export const Projects = () => {
 
                 <div>
                   <h4 className="text-xl font-bold mb-2">
-                    {language === "en" ? "Description" : "설명"}
+                    {language === "ko" ? "설명" : "Description"}
                   </h4>
                   <p className="text-muted-foreground">
                     {selectedProject.description}
@@ -165,7 +165,7 @@ export const Projects = () => {
 
                 <div>
                   <h4 className="text-xl font-bold mb-2">
-                    {language === "en" ? "My Contributions" : "나의 기여"}
+                    {language === "ko" ? "나의 기여" : "My Contributions"}
                   </h4>
                   <ul className="space-y-2">
                     {selectedProject.contributions.map((contrib, idx) => (
@@ -179,7 +179,7 @@ export const Projects = () => {
 
                 <div>
                   <h4 className="text-xl font-bold mb-2">
-                    {language === "en" ? "Key Results" : "주요 결과"}
+                    {language === "ko" ? "주요 결과" : "Key Results"}
                   </h4>
                   <ul className="space-y-2">
                     {selectedProject.results.map((result, idx) => (
@@ -200,7 +200,7 @@ export const Projects = () => {
                       className="flex items-center gap-2 px-6 py-2 bg-gradient-to-r from-primary to-accent text-primary-foreground rounded-lg font-medium hover:shadow-glow transition-all"
                     >
                       <ExternalLink className="w-4 h-4" />
-                      {language === "en" ? "Live Demo" : "데모 보기"}
+                      {language === "ko" ? "데모 보기" : "Live Demo"}
                     </a>
                   )}
                   {selectedProject.links.github && (

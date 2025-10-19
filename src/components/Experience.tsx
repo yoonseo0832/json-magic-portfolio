@@ -74,7 +74,7 @@ export const Experience = () => {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
           }`}
         >
-          {language === "en" ? "Experience" : "경력"}
+          {language === "ko" ? "경력" : "Experience"}
         </h2>
         <div
           className={`w-20 h-1 bg-gradient-to-r from-primary to-accent mx-auto mb-12 transition-all duration-700 delay-100 ${
@@ -87,7 +87,7 @@ export const Experience = () => {
           <div className="mb-16">
             <h3 className="text-2xl font-bold mb-8 flex items-center gap-2">
               <Briefcase className="w-6 h-6 text-primary" />
-              {language === "en" ? "Work Experience" : "업무 경험"}
+              {language === "ko" ? "업무 경험" : "Work Experience"}
             </h3>
             <div className="space-y-8">
               {data.work.map((job, index) => (
@@ -128,7 +128,7 @@ export const Experience = () => {
           <div>
             <h3 className="text-2xl font-bold mb-8 flex items-center gap-2">
               <GraduationCap className="w-6 h-6 text-primary" />
-              {language === "en" ? "Education" : "학력"}
+              {language === "ko" ? "학력" : "Education"}
             </h3>
             <div className="space-y-8">
               {data.education.map((edu, index) => (

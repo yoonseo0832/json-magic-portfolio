@@ -37,9 +37,9 @@ export const Hero = () => {
         </h1>
 
         <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-          {language === "en"
-            ? "Creative and who can minimize mistakes back-end Developer"
-            : "창의적이고 실수를 최소화하는 백엔드 개발자"}
+          {language === "ko"
+            ? "창의적이고 실수를 최소화하는 백엔드 개발자"
+            : "Creative and who can minimize mistakes back-end Developer"}
         </p>
 
         <div className="flex gap-4 justify-center mb-12">
@@ -50,7 +50,7 @@ export const Hero = () => {
             }}
             className="px-8 py-3 bg-gradient-to-r from-primary to-accent text-primary-foreground rounded-lg font-medium hover:shadow-glow transition-all hover:scale-105"
           >
-            {language === "en" ? "View My Work" : "프로젝트 보기"}
+            {language === "ko" ? "프로젝트 보기" : "View My Work"}
           </button>
           <button
             onClick={() => {
@@ -59,7 +59,7 @@ export const Hero = () => {
             }}
             className="px-8 py-3 border-2 border-primary text-primary rounded-lg font-medium hover:bg-primary hover:text-primary-foreground transition-all hover:scale-105"
           >
-            {language === "en" ? "Get In Touch" : "연락하기"}
+            {language === "ko" ? "연락하기" : "Get In Touch"}
           </button>
         </div>
 

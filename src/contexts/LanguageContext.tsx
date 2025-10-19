@@ -14,8 +14,8 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 
 // 언어 프로바이더 컴포넌트
 export const LanguageProvider = ({ children }: { children: ReactNode }) => {
-  // 기본 언어를 영어(EN)로 설정
-  const [language, setLanguage] = useState<Language>("en");
+  // 기본 언어를 한국어(KO)로 설정
+  const [language, setLanguage] = useState<Language>("ko");
 
   // 언어 전환 함수
   const toggleLanguage = () => {

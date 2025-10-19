@@ -90,7 +90,7 @@ export const Awards = () => {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
           }`}
         >
-          {language === "en" ? "Awards & Certifications" : "수상 및 자격증"}
+          {language === "ko" ? "수상 및 자격증" : "Awards & Certifications"}
         </h2>
         <div
           className={`w-20 h-1 bg-gradient-to-r from-primary to-accent mx-auto mb-12 transition-all duration-700 delay-100 ${

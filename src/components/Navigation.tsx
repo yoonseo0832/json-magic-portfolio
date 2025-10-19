@@ -74,13 +74,13 @@ export const Navigation = ({ onLogoClick }: NavigationProps) => {
 
   // 언어별 네비게이션 항목
   const navItems = [
-    { id: "home", label: language === "en" ? "Home" : "홈" },
-    { id: "about", label: language === "en" ? "About" : "소개" },
-    { id: "experience", label: language === "en" ? "Experience" : "경력" },
-    { id: "skills", label: language === "en" ? "Skills" : "스킬" },
-    { id: "projects", label: language === "en" ? "Projects" : "프로젝트" },
-    { id: "awards", label: language === "en" ? "Awards" : "수상" },
-    { id: "contact", label: language === "en" ? "Contact" : "연락처" },
+    { id: "home", label: language === "ko" ? "홈" : "Home" },
+    { id: "about", label: language === "ko" ? "소개" : "About" },
+    { id: "experience", label: language === "ko" ? "경력" : "Experience" },
+    { id: "skills", label: language === "ko" ? "스킬" : "Skills" },
+    { id: "projects", label: language === "ko" ? "프로젝트" : "Projects" },
+    { id: "awards", label: language === "ko" ? "수상" : "Awards" },
+    { id: "contact", label: language === "ko" ? "연락처" : "Contact" },
   ];
 
   return (
@@ -117,7 +117,7 @@ export const Navigation = ({ onLogoClick }: NavigationProps) => {
               onClick={toggleLanguage}
               className="text-foreground/80 hover:text-foreground transition-colors relative group font-medium"
             >
-              {language === "en" ? "KO" : "EN"}
+              {language === "ko" ? "EN" : "KO"}
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-primary to-accent transition-all group-hover:w-full"></span>
             </button>
             <Button
@@ -181,7 +181,7 @@ export const Navigation = ({ onLogoClick }: NavigationProps) => {
               }}
               className="block w-full text-left px-4 py-3 text-foreground/80 hover:text-foreground hover:bg-muted/50 transition-colors font-medium"
             >
-              {language === "en" ? "한국어 (KO)" : "English (EN)"}
+              {language === "ko" ? "English (EN)" : "한국어 (KO)"}
             </button>
           </div>
         )}
