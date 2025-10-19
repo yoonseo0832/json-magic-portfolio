@@ -2,7 +2,7 @@
   "projects": [
     {
       "id": "1",
-      "title": "E-Commerce Platform",
+      "title": "Trip-log: Travel Community Website",
       "image": "/placeholder.svg",
       "shortDescription": "Modern e-commerce solution with advanced filtering and cart management",
       "technologies": ["React", "TypeScript", "Redux", "Stripe", "Node.js"],
